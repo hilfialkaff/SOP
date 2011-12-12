@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{tess_retreat2010}
+H.~Alkaff, V.~Chiem, and A.~Wang.
+\newblock {Preserving Interactivity of GUI Applications}.
+\newblock Technical report, UC Berkeley ParLab Retreat, 2010.
+
+\bibitem{tube_chi}
+H.~Alkaff, A.~Tjoeng, V.~Tjhia, and K.~Ryokai.
+\newblock {Tangible Tube}.
+\newblock In {\em Conference on Human Factors in Computing Systems (In
+  Review)}, CHI, 2012.
+
+\bibitem{tess_eurosys}
+J.~A. Colmenares, S.~Bird, G.~Eads, S.~Hofmeyr, E.~Huerta-Yero, A.~Kim,
+  R.~Poddar, H.~Alkaff, K.~Asanovic, , and J.~Kubiatowicz.
+\newblock {Performance Predictability in the Tessellation Manycore OS}.
+\newblock In {\em Seventh conference on Computer systems (In Review)}, EuroSys,
+  2012.
+
+\bibitem{tess_hotchip}
+J.~A. Colmenares, S.~Bird, G.~Eads, S.~Hofmeyr, E.~Huerta-Yero, A.~Kim,
+  R.~Poddar, H.~Alkaff, K.~Asanovic, and J.~Kubiatowicz.
+\newblock {Building a Real-time, Responsive, High-throughput Client OS for
+  Many-core Architectures}.
+\newblock In {\em Proceedings of the IEEE Symposium on High Performance Chips},
+  2011.
+
+\bibitem{tess_cata}
+A.~Kim, J.~A. Colmenares, H.~Alkaff, and J.~Kubiatowicz.
+\newblock {A Real-Time, Parallel GUI Service in Tessellation Many-Core OS}.
+\newblock In {\em 27th International Conference on Computers and Their
+  Applications (In Review)}, CATA, 2012.
+
+\end{thebibliography}
