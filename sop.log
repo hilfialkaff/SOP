@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.12.10)  12 DEC 2011 16:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2012/dev/Arch Linux) (format=pdflatex 2011.12.10)  12 DEC 2011 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,12 +343,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
@@ -368,14 +368,14 @@ Here is how much of TeX's memory you used:
  4498 multiletter control sequences out of 15000+200000
  9065 words of font info for 22 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 24i,4n,32p,1261b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,4n,32p,1261b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
 usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf
 -dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
 per/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pf
 b>
-Output written on sop.pdf (2 pages, 84924 bytes).
+Output written on sop.pdf (2 pages, 84735 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
