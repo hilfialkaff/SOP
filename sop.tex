@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\Hrule}{\rule{\linewidth}{0.3mm}}
+
+\makeatletter% since there's an at-sign (@) in the command name
+\renewcommand{\@maketitle}{%
+  \parindent=0pt% don't indent paragraphs in the title block
+  \centering
+  {\Large \bfseries\textsc{\@title}}
+
+  \vspace{0.2in}
+
+  {\large \textsc{\@author}}
+
+  \vspace{0.2in}
+
+  {\large \textsc{\@date}}
+  \HRule\par%
+  \par
+}
+\makeatother% resets the meaning of the at-sign (@)
+
+\title{Statement of Purpose}
+\author{Hilfi Alkaff}
+\date{Computer Science Ph.D. Applicant}
+
+\begin{document}
+  \maketitle% prints the title block
+
+Affordable and reliable Internet access has been a problem that persists in the developing nations. Growing up in one of the developing countries, Indonesia, I have experienced the impact of this problem first hand. For instance, countless deaths resulted from the Tsunami that struck one of the islands in Indonesia back in 2004. Having been exposed to computers and programming early in my life, I quickly realized the potential of computers in helping to eradicate such problems that exist in Indonesia. In the aforementioned problem, had there been a properly established networking infrastructure, an early warning system could be designed and the casualties could be eluded. My desire to improve the living conditions in my home country has served as a reason that sparks my interest in research and consequently, in getting a PhD. \newline
+
+My research interest lies in the area of operating systems and computer networking. Specifically, I am interested in developing a more energy-efficient and reliable systems in these two areas. After PhD, my long term goal is to remain in the academia as a professor, contributing to the research community, undergraduate education and most importantly, the society as a whole. \newline
+
+For the past two years, I have been conducting research with Professor John Kubiatowicz and the Par Lab operating systems group. Specifically, I help design and implement Tessellation, our manycore OS. Experiencing a large-scale systems project, from the early conceptual design stages through implementation and evaluation, has been extremely fruitful, my experiences with the Par Lab have helped in refining my research interests while preparing me for future systems research. \newline
+
+My work in Tessellation began with designing and implementing its Quality of Service (QoS) guarantees in Linux. We needed to implement our own lock-free shared-memory buffer for efficient communications between processes. The framework used for composing the GUI applications that we were targeting is Qt and thus, we modified its internals to encompass the same model as Tessellation. In the end, we were able to earn a 7x speedup in our version of Qt compared to the unmodified Qt. The drastic increase in performance that we achieved is very encouraging since we managed to exercise our engineering skills in a commercial program used by thousands of people. Moreover, the interest expressed by companies such as Nokia when our work is presented at the ParLab 2010 winter retreat has further confirmed our success. \newline
+
+Following that, I was working to complete the existing work in porting Advanced Configuration and Power Interface (ACPI) to Tessellation, collaborating with a post-doctoral researcher from NEC. Understanding the Intel manuals is a challenge in itself since since there are hardly any tutorials online. However, by the end of the summer, I'm able to navigate my way through the manuals and even managed to get ACPI running smoothly in Tessellation. When I was porting ACPI, I also restructured how PCI devices are being discovered and added support for PCI-express devices in Tessellation. As our paper deadline is approaching, my focus shifted to implementing and automating the process of running the experiments followed by parsing the results and constructing the graph. My contribution to the project has resulted in a poster presented at HotChips 2011 and two publications submitted to EuroSys and CATA 2012 which are currently in-review. \newline
+
+The skills that I have acquired from my research proves to be useful, even in the area of computer science that I am not yet familiar with. In a graduate user interface class that I took, I need to propose a novel project in the area of computer and human interface. Having been placed in a similar situation in my research, I quickly adapted. I started browsing through related conferences and inquired relevant faculties to learn more about the existing researches in the area. In the end, we discovered that user interface system that revolves around the concept of breathing has not been scrutinized thoroughly in the research community. Not only did my team finish the class project successfully, we went above and beyond to compile a submission to the ACM CHI 2012 conference which is currently under review. \newline
+
+% -------------------------------------------------
+% Optional:
+% -------------------------------------------------
+
+% Interning at Qualcomm presented a distinctive challenge in planning and coordination within a large team setting. The codebase that I was working on is stupendous and intricate since my project was centered around the development of the latest android camera device drivers. In the beginning, my colleagues and I were struggling with the same bug without being aware of each other's efforts. As time progresses, we were able to coordinate much better and ensure that none of our efforts were duplicated. As the deadline of my project was looming, development accelerated considerably due to our team play. In the end of my internship, I contributed substantially to the implementation of several complex features in the device driver such as 3D snapshot \& auto-flicker detection, fixed a lot of bugs in the system and assisted Qualcomm's customers on the details of our code. Having the fruits of my project being employed by prominent companies such as Samsung confirmed its relevance to real-world problems which I hope to continue at UT Austin. \newline
+
+Additionally, I believe that teaching is an integral part of conducting research. A discovery is far from complete if one does not also find a way to present and elucidate it to others. Even more importantly, organizing a vast array of result for presentation is a crucial skill that a researcher must share with a teacher. I have been involved with education throughout my undergraduate years where I have served as a tutor in the community college and as a teaching assistant for upper division operating systems class in Berkeley. \newline
+
+% -------------------------------------------------
+%
+% Aside from conducting research, my conceptual understandings of computer systems has also been polished through the papers that I have read during the graduate classes that I have taken and during my research meetings. Being given the opportunity to lead paper discussions in these avenues have ameliorated my critical thinking skills on critiquing and comparing academic literatures. Most importantly, these papers have shown me what is considered a good research. This experience gave me a lot exposure to different areas of computer systems, whether it's networking protocols or operating systems, and helped me to get a much bigger picture of how the entire field is structured, a complementary knowledge to the technical skills that I have gained in my research experiences. \newline
+
+In the future, I hope to continue my prior research on exploring the potential of multicore OS. In the multicore era that we are currently in, there will be more parallelism than ever. This requires us to revise the assumptions that we have made on traditional OSes. MIT stands out due to the number of world-renowned faculties whose research interest is closely aligned to mine such as Professor Nickolai Zeldovich and Professor Frans Kaashoek. Do we actually need a multicore OS or is it possible to modify the current OSes to scale with the ever-increasing cores in a computer? The solution to this problem will definitely have an enormous impact in our everyday lives. I am also attracted by the strength of the undergraduate program in MIT as I look forward to becoming a teaching assistant again as a graduate student. For these reasons, I believe that the PhD program at MIT is the best match for my interest. Given my background, I believe that I am in a good position to make crucial contribution in such pursuits. \newline
+
+% \bibliographystyle{abbrv}
+% \bibliography{sop}
+
+\end{document}
